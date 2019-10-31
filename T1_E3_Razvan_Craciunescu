@@ -1,0 +1,12 @@
+function ex3()
+  
+  a=normrnd(0,10,[1,10]);
+  b=normrnd(0,10,[1,10]);
+  c=complex(a,b)
+  [x v m]=ex3helper(c);
+  x
+  v
+  m
+  
+  
+end
